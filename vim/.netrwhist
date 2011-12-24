@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Volumes/source_code/Newsletter-Subscription-Population/people_to_upload'
+let g:netrw_dirhist_2='/Volumes/source_code/deals'
+let g:netrw_dirhist_3='/Users/enduser/workspace/hiring/yaml_parser'
+let g:netrw_dirhist_4='/Users/enduser/workspace/hiring/yaml_parser/spec'
+let g:netrw_dirhist_5='/Users/enduser'
+let g:netrw_dirhist_6='/Users/enduser/workspace'
