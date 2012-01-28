@@ -17,6 +17,7 @@ set hlsearch                    " highlight matches
 set incsearch                   " incremental searching
 set ignorecase                  " searches are case insensitive...
 set smartcase                   " ... unless they contain at least one capital letter
+set number                         " show line numbers
 
 set guifont=Menlo\ Regular:h18
 color evening
