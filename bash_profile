@@ -51,4 +51,4 @@ watchfile () {
 
 source ~/Developer/.developer.profile
 
-source ~/git-completion.bash
+source ~/workspace/dotfiles/git-completion.bash
