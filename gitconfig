@@ -1,0 +1,12 @@
+[user]
+	name = Mike Gehard
+	email = mike.gehard@gmail.com
+[core]
+	quotepath = false
+	excludesfile = /Users/msgehard/.gitignore
+[github]
+	user = msgehard
+	token = b59928b4a4b9909d89746a419180d1c5
+
+[gui]
+	recentrepo = /Users/msgehard/Documents/Development/rubyDevelopment/rails_source/docrails
