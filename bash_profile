@@ -43,22 +43,7 @@ proml
 # End of prompt stuff
 
 # alias definitions
-alias rubydev='cd ~/workspace/rubyDevelopment'
-alias dev='cd ~/workspace'
-alias jsdev='cd ~/workspace/jsDevelopment'
-alias pythondev='cd ~/workspace/pythonDevelopment'
-alias rails_source_dev='cd ~/workspace/rubyDevelopment/rails_source/rails'
 alias reloadbash='source ~/.bash_profile'
-
-#function definitions, these can take arguments
-
-# must be run from the wordpressSites directory
-# argument 1 is client directory name
-# argument 2 is environment
-#wordpressconfig () {
-#	rm ./wordpressRoot/wp-config.php; 
-#	ln -s ~/workspace/wordpressSites/clients/$1/wp-config.$2.php ./wordpressRoot/wp-config.php
-#}
 
 watchfile () {
 	tail -f $1
@@ -67,5 +52,3 @@ watchfile () {
 source ~/Developer/.developer.profile
 
 source ~/git-completion.bash
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
