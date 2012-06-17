@@ -11,7 +11,7 @@ function set_bash_prompt (){
   local LIGHT_RED="\[\033[1;31m\]"
   local LIGHT_GREEN="\[\033[1;32m\]"
   local WHITE="\[\033[1;37m\]"
-  PS1="\n$GREEN\w | \$(~/.rvm/bin/rvm-prompt) | \$(parse_git_branch)\n\n$RED>$WHITE"
+  PS1="$LIGHT_RED\w:\$(parse_git_branch):\$(~/.rvm/bin/rvm-prompt)\n$RED> $GREEN"
 }
 
 PROMPT_COMMAND=set_bash_prompt
