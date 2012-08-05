@@ -30,3 +30,6 @@ cnoremap %% <C-R>=expand('%:h').'/'<cr>
 " CommandT setup
 map <leader>f :CommandTFlush<cr>\|:CommandT<cr>
 map <leader>F :CommandTFlush<cr>\|:CommandT %%<cr>
+
+" Vimux setup
+map <leader>vp :VimuxPromptCommand<CR>
