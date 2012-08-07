@@ -1,0 +1,7 @@
+cookbook_paths:
+- .
+- ..
+recipes:
+- homebrew::default
+- ssh::default
+- tmux::default
