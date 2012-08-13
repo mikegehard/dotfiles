@@ -5,7 +5,6 @@ call pathogen#infect()
 set showcmd                     " display incomplete commands
 filetype plugin indent on       " load file type plugins + indentation
 
-
 "" Whitespace
 set nowrap                      " don't wrap lines
 set tabstop=2 shiftwidth=2      " a tab is two spaces (or set this to 4)
@@ -19,8 +18,8 @@ set ignorecase                  " searches are case insensitive...
 set smartcase                   " ... unless they contain at least one capital letter
 set number                         " show line numbers
 
-set guifont=Menlo\ Regular:h18
-color evening
+" set guifont=Menlo\ Regular:h18
+color default
 
 let mapleader=','
 
