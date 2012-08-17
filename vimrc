@@ -32,3 +32,6 @@ map <leader>F :CommandTFlush<cr>\|:CommandT %%<cr>
 
 " Vimux setup
 map <leader>vp :VimuxPromptCommand<CR>
+
+" Automatically set ruby compiler for ruby files 
+autocmd FileType ruby compiler ruby
