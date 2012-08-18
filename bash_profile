@@ -30,6 +30,7 @@ watchfile () {
 }
 
 export EDITOR=/usr/bin/vim
+export TERM=xterm-256color
 
 source ~/Developer/.developer.profile
 
