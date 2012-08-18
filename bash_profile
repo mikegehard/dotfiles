@@ -29,6 +29,8 @@ watchfile () {
 	tail -f $1
 }
 
+export EDITOR=/usr/bin/vim
+
 source ~/Developer/.developer.profile
 
 source ~/workspace/dotfiles/git-completion.bash
