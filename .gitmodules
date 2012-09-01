@@ -4,3 +4,6 @@
 [submodule "vim/bundle/command-t"]
 	path = vim/bundle/command-t
 	url = git://git.wincent.com/command-t.git
+[submodule "vim/bundle/vimclojure"]
+	path = vim/bundle/vimclojure
+	url = git://github.com/vim-scripts/VimClojure.git
