@@ -26,6 +26,7 @@ alias stopredis="killall redis-server"
 
 # Aliases for quickly switching to various folders
 alias rubydev='cd ~/workspace/rubyDevelopment'
+alias retrospectrdev='cd ~/workspace/scalaDev/playSites/retrospectr'
 alias dev='cd ~/workspace'
 alias jsdev='cd ~/workspace/jsDevelopment'
 alias pythondev='cd ~/workspace/pythonDevelopment'
