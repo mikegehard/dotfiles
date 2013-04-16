@@ -33,4 +33,4 @@ alias pythondev='cd ~/workspace/pythonDevelopment'
 alias rails_source_dev='cd ~/workspace/rubyDevelopment/rails_source/rails'
 
 # Drip setup (https://github.com/flatland/drip)
-export JAVACMD=drip
+# export JAVACMD=drip

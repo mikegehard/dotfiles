@@ -1,0 +1,13 @@
+windows:
+  - name: "servers"
+    root: "~/workspace/scalaDev/playSites/retrospectr"
+    layout: even-horizontal
+    panes:
+      - cmd: ["play run"]
+      - cmd: ["cd front-end", "grunt dev"]
+  - name: "tests"
+    root: "~/workspace/scalaDev/playSites/retrospectr"
+    layout: even-horizontal
+    panes:
+      - cmd: ["play test"]
+      - cmd: ["testem"]
