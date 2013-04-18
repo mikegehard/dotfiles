@@ -3,11 +3,11 @@ windows:
     root: "~/workspace/scalaDev/playSites/retrospectr"
     layout: even-horizontal
     panes:
-      - cmd: ["play run"]
+      - cmd: ["startpg", "play run"]
       - cmd: ["cd front-end", "grunt dev"]
   - name: "tests"
     root: "~/workspace/scalaDev/playSites/retrospectr"
     layout: even-horizontal
     panes:
-      - cmd: ["play test"]
+      - cmd: ["sleep 60", "play ~test"]
       - cmd: ["cd front-end" ,"testem"]
