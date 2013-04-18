@@ -10,4 +10,4 @@ windows:
     layout: even-horizontal
     panes:
       - cmd: ["play test"]
-      - cmd: ["testem"]
+      - cmd: ["cd front-end" ,"testem"]
