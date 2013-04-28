@@ -1,42 +1,22 @@
 #!/bin/bash
 
-function parse_git_dirty {
-  [[ $(git status 2> /dev/null | tail -n1) != "nothing to commit (working directory clean)" ]] && echo "*"
-}
-function parse_git_branch {
-  git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/[\1$(parse_git_dirty)]/"
-}
+# Path to the bash it configuration
+export BASH_IT="/Users/mike/.bash_it"
 
-function set_bash_prompt (){
-  local GREEN="\[\033[0;32m\]"
-  local BLUE="\[\033[0;34m\]"
-  local RED="\[\033[0;31m\]"
-  local LIGHT_RED="\[\033[1;31m\]"
-  local LIGHT_BLUE="\[\033[1;34m\]"
-  local LIGHT_GREEN="\[\033[1;32m\]"
-  local WHITE="\[\033[1;37m\]"
-  PS1="$LIGHT_RED\w$LIGHT_BLUE:\$(parse_git_branch)$LIGHT_GREEN:\$(~/.rvm/bin/rvm-prompt)\n$RED> $GREEN"
-}
+# Lock and Load a custom theme file
+export BASH_IT_THEME="bobby"
 
-PROMPT_COMMAND=set_bash_prompt
-
-# End of prompt stuff
+# Load Bash It
+source $BASH_IT/bash_it.sh
 
 # alias definitions
 alias reloadbash='source ~/.bash_profile'
 
-watchfile () {
-	tail -f $1
-}
-
 export EDITOR=/usr/bin/vim
-export TERM=xterm-256color
 
-source ~/Developer/.developer.profile
-
-source ~/workspace/dotfiles/git-completion.bash
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+source ~/.developer.profile
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
