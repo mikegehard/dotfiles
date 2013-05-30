@@ -1,5 +1,7 @@
 PATH="/usr/local/bin:/usr/local/share/npm/bin:/usr/local/sbin:$PATH"; export PATH
 
+GOPATH="/Users/mike/workspace/goDev"; export GOPATH
+
 MANPATH="/Users/msgehard/Developer/share/man:$MANPATH"; export MANPATH
 CFLAGS="-I/Users/msgehard/Developer/include"; export CFLAGS
 CPPFLAGS="-I/Users/msgehard/Developer/include"; export CPPFLAGS
