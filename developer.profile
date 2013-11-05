@@ -32,3 +32,5 @@ alias dev='cd ~/workspace'
 alias jsdev='cd ~/workspace/jsDevelopment'
 alias pythondev='cd ~/workspace/pythonDevelopment'
 alias rails_source_dev='cd ~/workspace/rubyDevelopment/rails_source/rails'
+
+eval "$(rbenv init -)"
