@@ -34,3 +34,4 @@ alias pythondev='cd ~/workspace/pythonDevelopment'
 alias rails_source_dev='cd ~/workspace/rubyDevelopment/rails_source/rails'
 
 eval "$(rbenv init -)"
+source /usr/local/etc/bash_completion.d/git-completion.bash 
