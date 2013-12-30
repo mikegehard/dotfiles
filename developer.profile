@@ -3,11 +3,6 @@ PATH="/usr/local/bin:/usr/local/share/npm/bin:/usr/local/sbin:$PATH"; export PAT
 GOPATH="/Users/mike/workspace/goDev"; export GOPATH
 
 MANPATH="/Users/msgehard/Developer/share/man:$MANPATH"; export MANPATH
-CFLAGS="-I/Users/msgehard/Developer/include"; export CFLAGS
-CPPFLAGS="-I/Users/msgehard/Developer/include"; export CPPFLAGS
-CXXFLAGS="-I/Users/msgehard/Developer/include"; export CXXFLAGS
-LDFLAGS="-L/Users/msgehard/Developer/lib"; export LDFLAGS
-NODE_PATH="/Users/msgehard/Developer/lib/node"; export NODE_PATH
 
 export CONFIGURE_ARGS="--with-cflags='$CFLAGS' --with-ldflags='$LDFLAGS'"
 
