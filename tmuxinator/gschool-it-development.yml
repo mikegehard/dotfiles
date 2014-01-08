@@ -1,0 +1,17 @@
+# ~/.tmuxinator/gschool-it-development.yml
+
+name: gschool-it-development
+root: ~/workspace/pivotal/gSchool/gschool.it
+
+# Runs before everything. Use it to start daemons etc.
+pre: startpg
+
+# Runs in each window and pane before window/pane specific commands. Useful for setting up interpreter versions.
+# pre_window: rbenv shell 2.0.0-p247
+
+windows:
+  - code:
+      layout: main-horizontal
+      panes:
+        - bundle exec rake spec
+        - bundle exec rails s
