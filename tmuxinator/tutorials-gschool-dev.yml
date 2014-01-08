@@ -1,0 +1,14 @@
+# ~/.tmuxinator/tutorials-gschool-dev.yml
+
+name: tutorials-gschool-dev
+root: ~/workspace/pivotal/gSchool/tutorials.gschool.it
+
+# Runs in each window and pane before window/pane specific commands. Useful for setting up interpreter versions.
+pre_window: rbenv shell 2.1.0
+
+windows:
+  - editor:
+      layout: main-horizontal
+      panes:
+        - middleman server
+        - #empty

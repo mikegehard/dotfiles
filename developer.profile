@@ -30,3 +30,4 @@ alias rails_source_dev='cd ~/workspace/rubyDevelopment/rails_source/rails'
 
 eval "$(rbenv init -)"
 source /usr/local/etc/bash_completion.d/git-completion.bash 
+source /Users/mike/.tmuxinator/tmuxinator.bash
