@@ -10,5 +10,6 @@ windows:
   - editor:
       layout: main-horizontal
       panes:
-        - startpg; bundle exec rails server
         - #empty
+        - startpg; bundle exec rails server
+        - bundle exec guard
