@@ -11,5 +11,5 @@ windows:
       layout: main-horizontal
       panes:
         - #empty
-        - startpg; bundle exec rails server
+        - source envVariables.sh; startpg; bundle exec rails server
         - bundle exec guard
