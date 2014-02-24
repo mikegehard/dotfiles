@@ -3,9 +3,6 @@
 name: students-gschool-dev
 root: ~/workspace/pivotal/gSchool/students.gschool.it
 
-# Runs in each window and pane before window/pane specific commands. Useful for setting up interpreter versions.
-pre_window: unset RBENV_VERSION; unset RBENV_DIR
-
 windows:
   - editor:
       layout: main-horizontal
