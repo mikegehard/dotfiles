@@ -1,12 +1,6 @@
 PATH="/usr/local/bin:/usr/local/share/npm/bin:/usr/local/sbin:$PATH"; export PATH
 
-GOPATH="/Users/mike/workspace/goDev"; export GOPATH
-
-MANPATH="/Users/msgehard/Developer/share/man:$MANPATH"; export MANPATH
-
 export CONFIGURE_ARGS="--with-cflags='$CFLAGS' --with-ldflags='$LDFLAGS'"
-
-NODE_PATH="/Users/msgehard/Developer/lib/node:/Users/msgehard/Developer/lib/node_modules"; export NODE_PATH
 
 # Aliases for stuff installed via homebrew
 alias startmysql="mysql.server start"
@@ -27,6 +21,11 @@ alias dev='cd ~/workspace'
 alias jsdev='cd ~/workspace/jsDevelopment'
 alias pythondev='cd ~/workspace/pythonDevelopment'
 alias rails_source_dev='cd ~/workspace/rubyDevelopment/rails_source/rails'
+
+# Aliases for switching java environments
+alias java7dev='export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/'
+alias java8dev='export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/'
+
 
 eval "$(rbenv init -)"
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
