@@ -3,6 +3,8 @@
 name: students-gschool-dev
 root: ~/workspace/pivotal/gSchool/students.gschool.it
 
+pre_window: rbenv shell 2.1.0
+
 windows:
   - editor:
       layout: main-horizontal
