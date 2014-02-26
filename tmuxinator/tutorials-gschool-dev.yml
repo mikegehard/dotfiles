@@ -4,7 +4,7 @@ name: tutorials-gschool-dev
 root: ~/workspace/pivotal/gSchool/tutorials.gschool.it
 
 # Runs in each window and pane before window/pane specific commands. Useful for setting up interpreter versions.
-pre_window: rbenv shell 2.1.0
+pre_window: rbenv shell 2.1.1
 
 windows:
   - editor:
