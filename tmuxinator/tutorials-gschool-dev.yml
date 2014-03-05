@@ -10,5 +10,5 @@ windows:
   - editor:
       layout: main-horizontal
       panes:
-        - #empty
+        - mine .
         - middleman server -p 8080
