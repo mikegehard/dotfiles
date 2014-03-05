@@ -1,4 +1,4 @@
-PATH="/usr/local/bin:/usr/local/share/npm/bin:/usr/local/sbin:$PATH"; export PATH
+PATH="/usr/local/bin:/usr/local/share/npm/bin:$PATH"; export PATH
 
 export CONFIGURE_ARGS="--with-cflags='$CFLAGS' --with-ldflags='$LDFLAGS'"
 
