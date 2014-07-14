@@ -1,0 +1,13 @@
+# ~/.tmuxinator/clicker-gschool-dev.yml
+
+name: clicker-gschool-dev
+root: ~/workspace/pivotal/gSchool/clicker
+
+pre_window: rbenv shell 2.1.1
+
+windows:
+  - editor:
+      layout: main-horizontal
+      panes:
+        - mine .
+        - startpg; rackup

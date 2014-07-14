@@ -14,8 +14,7 @@ alias reloadbash='source ~/.bash_profile'
 
 export EDITOR=/usr/bin/vim
 
-source ~/.developer.profile
+export PATH="/usr/local/heroku/bin:/usr/local/bin:$HOME/.jenv/bin:$PATH"
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+source ~/.developer.profile
 
