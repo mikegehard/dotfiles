@@ -1,6 +1,6 @@
 export CONFIGURE_ARGS="--with-cflags='$CFLAGS' --with-ldflags='$LDFLAGS'"
 
-export GOPATH=$HOME/goDev
+export GOPATH=$HOME/workspace/goDev
 export PATH=$PATH:$GOPATH/bin
 
 # Aliases for stuff installed via homebrew
