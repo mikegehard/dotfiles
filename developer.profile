@@ -16,10 +16,6 @@ alias tomcatstart="/usr/local/Cellar/tomcat/7.0.53/libexec/bin/startup.sh"
 alias tomcatstop="/usr/local/Cellar/tomcat/7.0.53/libexec/bin/shutdown.sh"
 alias springboot="/usr/local/bin/spring"
 
-# Aliases for switching java environments
-alias java7dev='export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/'
-alias java8dev='export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/'
-
 eval "$(rbenv init -)"
 eval "$(jenv init -)"
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
