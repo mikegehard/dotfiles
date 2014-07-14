@@ -1,5 +1,7 @@
 export CONFIGURE_ARGS="--with-cflags='$CFLAGS' --with-ldflags='$LDFLAGS'"
 
+export GOPATH=$HOME/goDev
+
 # Aliases for stuff installed via homebrew
 alias startmysql="mysql.server start"
 alias stopmysql="mysql.server stop"
