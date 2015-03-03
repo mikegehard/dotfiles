@@ -6,9 +6,9 @@ export PATH=$PATH:$GOPATH/bin
 # Aliases for stuff installed via homebrew
 alias pg="/usr/local/bin/pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
 alias pgstop="/usr/local/bin/pg_ctl -D /usr/local/var/postgres stop -s -m fast"
-alias redis="redis-server /usr/local/etc/redis.conf"
+alias redis="redis-server /usr/local/etc/redis.conf > /tmp/redis.log &"
 alias redisstop="killall redis-server"
-alias elasticsearch="elasticsearch --config=/usr/local/opt/elasticsearch/config/elasticsearch.yml"
+alias elasticsearch="elasticsearch --config=/usr/local/opt/elasticsearch/config/elasticsearch.yml > /tmp/elasticsearch.log &"
 alias elasticsearchstop="killall elasticsearch"
 
 alias tomcat="/usr/local/Cellar/tomcat/7.0.53/libexec/bin/startup.sh"
