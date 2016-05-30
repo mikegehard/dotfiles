@@ -15,7 +15,6 @@ alias tomcat="/usr/local/Cellar/tomcat/7.0.53/libexec/bin/startup.sh"
 alias tomcatstop="/usr/local/Cellar/tomcat/7.0.53/libexec/bin/shutdown.sh"
 
 eval "$(rbenv init -)"
-eval "$(jenv init -)"
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
     . $(brew --prefix)/etc/bash_completion
 fi
