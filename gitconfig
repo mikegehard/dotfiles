@@ -1,6 +1,13 @@
 [user]
 	name = Mike Gehard
 	email = mike.gehard@gmail.com
+[push]
+	default = simple
 [core]
-	quotepath = false
-	excludesfile = /Users/msgehard/.gitignore
+	excludesfile = /Users/mike/.gitignore_global
+[color]
+	ui = auto
+[alias]
+	graph = log --graph --oneline --decorate --all
+[diff]
+	compactionHeuristic = true
