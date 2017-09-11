@@ -63,3 +63,19 @@ source ~/.developer.profile
 
 eval "$(jenv init -)"
 
+
+# added by Anaconda2 4.1.1 installer
+export PATH="/usr/local/bin/anaconda2/bin:$PATH"
+
+# added by Anaconda2 4.1.1 installer
+export PATH="/usr/local/bin/anaconda2/bin:$PATH"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f /Users/mike/Downloads/google-cloud-sdk/path.bash.inc ]; then
+  source '/Users/mike/Downloads/google-cloud-sdk/path.bash.inc'
+fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f /Users/mike/Downloads/google-cloud-sdk/completion.bash.inc ]; then
+  source '/Users/mike/Downloads/google-cloud-sdk/completion.bash.inc'
+fi
