@@ -1,6 +1,6 @@
 [user]
 	name = Mike Gehard
-	email = mike.gehard@gmail.com
+	useConfigOnly = true
 [push]
 	default = simple
 [core]

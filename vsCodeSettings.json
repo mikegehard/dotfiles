@@ -2,5 +2,12 @@
 {
     "editor.fontSize": 16,
     "files.autoSave": "onFocusChange",
-    "elm-format.formatOnSave": true
+    "elm-format.formatOnSave": true,
+    "extensions.ignoreRecommendations": false,
+    "editor.rulers": [
+        72
+    ],
+    "workbench.startupEditor": "newUntitledFile",
+    "window.zoomLevel": 0,
+    "editor.multiCursorModifier": "alt"
 }
